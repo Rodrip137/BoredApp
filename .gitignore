@@ -1,18 +1,34 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-/.idea/tasks.xml
-/.idea/gradle.xml
-/.idea/dictionaries
+# OSX files
 .DS_Store
-/build
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+  
+# generated files
+bin/
+gen/
+build/
+  
+# Local configuration file (sdk path, etc)
+local.properties
+  
+# Android Studio
+.idea
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
 /captures
 .externalNativeBuild
 .cxx
-local.properties
