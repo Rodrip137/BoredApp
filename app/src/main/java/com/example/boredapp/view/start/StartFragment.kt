@@ -18,10 +18,7 @@ import com.example.boredapp.databinding.FragmentStartBinding
 class StartFragment : Fragment() {
 
     private val startViewModel : StartViewModel by viewModels()
-
     private lateinit var binding :FragmentStartBinding
-
-
     private lateinit var starActivity : StartActivity
 
     override fun onAttach(context: Context) {
@@ -37,9 +34,9 @@ class StartFragment : Fragment() {
         return binding.root
     }
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
 
         startViewModel.setSharedPreferences(starActivity.preferences)
 
@@ -57,6 +54,7 @@ class StartFragment : Fragment() {
         }
         binding.fragmentStart.btnStart.setOnClickListener {
             startViewModel.saveParticipes(binding.fragmentStart.etParticipants.text.toString())
+            starActivity.startHome()
         }
 
     }

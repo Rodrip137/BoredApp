@@ -10,7 +10,7 @@
 
             <stroke
                 Android:width="1dp"
-                Android:color="@color/gray_dark" />
+                Android:color="@color/Primary" />
         </shape>
     </item>
 

@@ -36,7 +36,6 @@ class SuggestionActivity : AppCompatActivity() {
 
         viewModel.getActivity(url)
 
-
         with(binding){
             include.ivRandom.visibility = View.INVISIBLE
             include.ivBack.visibility = View.VISIBLE

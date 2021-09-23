@@ -14,16 +14,17 @@
         android:layout_alignParentLeft="true"
         android:layout_centerInParent="true"
         android:text="Education"
-        android:layout_marginStart="5dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
         android:textSize="25dp" />
 
     <ImageView
         android:id="@+id/iv_forward"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
         android:layout_alignParentRight="true"
         android:layout_centerInParent="true"
+        android:layout_marginEnd="10dp"
         android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
 
 </RelativeLayout>

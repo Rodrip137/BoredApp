@@ -1,6 +1,7 @@
 <resources>
-    <style name="Widget.Theme.BoredApp.ButtonBar.Fullscreen" parent="">
+    <style name="ThemeApp" parent="">
         <item name="android:background">@color/Background</item>
         <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
     </style>
+
 </resources>

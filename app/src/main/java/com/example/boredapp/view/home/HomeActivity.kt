@@ -38,7 +38,7 @@ class HomeActivity : AppCompatActivity(), RecyclerviewClickListener {
     }
 
     override fun onRecyclerViewItemClick(item: String) {
-        Toast.makeText(this, "Clicked at $item", Toast.LENGTH_LONG).show()
+        //Toast.makeText(this, "Clicked at $item", Toast.LENGTH_LONG).show()
 
         val intent = Intent(this, SuggestionActivity::class.java)
         intent.putExtra("category", item)
