@@ -39,7 +39,7 @@ android {
             dimension = "enviroment"
             applicationIdSuffix = ".develop"
             versionNameSuffix = "-develop"
-            buildConfigField "String", "API_URL", "http://www.boredapi.com/"
+            buildConfigField "String", "API_URL", "\"http://www.boredapi.com\""
         }
     }
 }
@@ -62,6 +62,8 @@ dependencies {
     //Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
 
     //Unit Test
     testImplementation 'junit:junit:4.+'
