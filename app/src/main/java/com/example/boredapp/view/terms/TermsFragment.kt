@@ -1,4 +1,4 @@
-package com.example.boredapp
+package com.example.boredapp.view.terms
 
 import android.content.Context
 import android.os.Bundle
@@ -8,18 +8,16 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
+import com.example.boredapp.StartActivity
 import com.example.boredapp.databinding.FragmentTermsBinding
 
 class TermsFragment : Fragment() {
 
-    private val termsViewModel :TermsViewModel by viewModels()
-    private lateinit var starActivity :StartActivity
+    private val termsViewModel : TermsViewModel by viewModels()
+    private lateinit var starActivity : StartActivity
 
     private var _binding :FragmentTermsBinding? = null
     private val binding get() = _binding!!
-
-    private lateinit var viewModel: MyViewModel
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -30,7 +28,6 @@ class TermsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        viewModel = ViewModelProvider(this).get(MyViewModel::class.java)
         // Inflate the layout for this fragment
         _binding = FragmentTermsBinding.inflate(inflater, container, false)
         return binding.root
@@ -49,12 +46,6 @@ class TermsFragment : Fragment() {
         binding.btnClose.setOnClickListener { activity?.onBackPressed() }
 
     }
-
-
-
-
-
-
 
     //Para evitar Memory leaks
     override fun onDestroy() {

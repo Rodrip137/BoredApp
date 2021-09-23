@@ -15,4 +15,7 @@ Nisl pulvinar taciti tellus diam quam dictum cursus potenti euismod natoque feug
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="checkboxTerms">I have read and agree to the Terms and Conditions</string>
+    <string name="activities">Activities</string>
+    <string name="home_error">An error occurred. Please try again later</string>
+    <string name="try_another">Try another</string>
 </resources>

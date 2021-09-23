@@ -14,4 +14,10 @@
     <color name="Primary">#FF00A0A3</color>
     <color name="Secondary">#FF1B3A4B</color>
     <color name="Background">#FFC2FEFF</color>
+    <color name="gray_dark">#292A2B</color>
+    <color name="gray_light">#8D8D8D</color>
+    <color name="blue_light">#A7F6FF</color>
+    <color name="blue_dark">#00B0FF</color>
+    <color name="primary_light">#C2FEFF</color>
+    <color name="primary_dark">#1B3A4B</color>
 </resources>

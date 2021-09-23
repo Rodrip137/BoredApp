@@ -1,9 +1,10 @@
-package com.example.boredapp
+package com.example.boredapp.view.start
 
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.boredapp.PREFERENCES_NUMBER_PARTICIPES
 
 class StartViewModel :ViewModel(){
 

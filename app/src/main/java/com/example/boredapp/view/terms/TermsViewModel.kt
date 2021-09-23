@@ -1,9 +1,10 @@
-package com.example.boredapp
+package com.example.boredapp.view.terms
 
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.boredapp.TERMS_ACCEPTED
 
 class TermsViewModel :ViewModel(){
 

@@ -7,7 +7,7 @@
 
         <fragment
             android:id="@+id/fragmentStart"
-            android:name="com.example.boredapp.StartFragment"
+            android:name="com.example.boredapp.view.start.StartFragment"
             android:label="movies_fragment"
             tools:layout="@layout/fragment_start" >
             <action
@@ -16,7 +16,7 @@
         </fragment>
         <fragment
             android:id="@+id/termsFragment2"
-            android:name="com.example.boredapp.TermsFragment"
+            android:name="com.example.boredapp.view.terms.TermsFragment"
             android:label="fragment_terms"
             tools:layout="@layout/fragment_terms" />
 

@@ -1,4 +1,4 @@
-package com.example.boredapp
+package com.example.boredapp.view.start
 
 import android.content.Context
 import android.os.Bundle
@@ -6,26 +6,23 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.app.NavUtils
 import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
+import com.example.boredapp.R
+import com.example.boredapp.StartActivity
 import com.example.boredapp.databinding.FragmentStartBinding
-import com.example.boredapp.databinding.FragmentTermsBinding
 
 
 class StartFragment : Fragment() {
 
-    private val startViewModel :StartViewModel by viewModels()
+    private val startViewModel : StartViewModel by viewModels()
 
     private lateinit var binding :FragmentStartBinding
 
 
-    private lateinit var starActivity :StartActivity
+    private lateinit var starActivity : StartActivity
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
